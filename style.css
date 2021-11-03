@@ -87,12 +87,10 @@ joemama {
 
 .git {
     opacity: 0;
-    animation: floatIn 0.7s ease-out 0.9s normal forwards;
 }
 
 .coms {
     opacity: 0;
-    animation: floatIn 0.7s ease-out 1.2s normal forwards;
 }
 
 .title {
