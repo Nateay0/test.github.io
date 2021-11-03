@@ -38,7 +38,7 @@ h1 {
     font-family: "Raleway", sans-serif;
     font-weight: 100;
     color: #1db954;
- 
+    animation: spaceLetters 1.3s ease-out 0s normal forwards;
 }
 
 p {
