@@ -16,6 +16,7 @@ canvas {
     }
     100% {
         opacity: 1;
+        letter-spacing: 1.7rem;
     }
 }
 
@@ -37,6 +38,7 @@ h1 {
     font-family: "Raleway", sans-serif;
     font-weight: 100;
     color: #1db954;
+    animation: spaceLetters 1.3s ease-out 0s normal forwards;
 }
 
 p {
@@ -45,6 +47,7 @@ p {
     font-family: "Raleway", sans-serif;
     font-weight: 200;
     color: #fff;
+    animation: floatIn 0.7s ease-out 0.7s normal forwards;
 }
 
 a {
@@ -84,10 +87,21 @@ joemama {
 
 .git {
     opacity: 0;
+    animation: floatIn 0.7s ease-out 0.9s normal forwards;
 }
 
 .coms {
     opacity: 0;
+    animation: floatIn 0.7s ease-out 1.2s normal forwards;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    align-items: center;
 }
 
 #particles-js {
