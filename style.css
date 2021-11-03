@@ -90,15 +90,6 @@ joemama {
     opacity: 0;
 }
 
-.title {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    align-items: center;
-}
-
 #particles-js {
     position: absolute;
     width: 100%;
