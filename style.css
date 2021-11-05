@@ -16,7 +16,7 @@ canvas {
     }
     100% {
         opacity: 1;
-        letter-spacing: 0.9rem;
+        letter-spacing: 1.0rem;
     }
 }
 
